@@ -9,6 +9,16 @@
 
 有趣的是，因为这些包存储在GitHub，而且每个包自带的**数据是40~50M**，对很多在中国大陆的朋友来说， 几乎是不可能完成，所以我把这4个包整合成为了一个GitHub包（**AnnoProbe**）！总共不到5M，相信大家使用起来应该是很方便啦！
 
+### 如何下载**AnnoProbe**
+
+```r
+library(devtools)
+install_github("jmzeng1314/AnnoProbe")
+library(GEOmirror)
+```
+
+因为这个包里面并没有加入很多数据，所以理论上会比较容易安装，当然，不排除中国大陆少部分地方基本上连GitHub都无法访问。
+
 ### 首先看GEO数据库下载镜像
 
 ```r
