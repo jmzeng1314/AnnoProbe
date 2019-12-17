@@ -1,6 +1,6 @@
 ### 表达芯片数据分析伴侣
 
-上周我们发布的四个R包基本上能进解决**表达芯片数据挖掘的88%的问题**，如下:
+上周我们发布的**四个R包**基本上能进解决**表达芯片数据挖掘的88%的问题**，如下:
 
 - [第三个万能芯片探针ID注释平台R包](http://mp.weixin.qq.com/s?__biz=MzAxMDkxODM1Ng==&mid=2247492052&idx=1&sn=e640e0d9468f60616bddf9494117d0b8&chksm=9b4ba16fac3c287934abe0c6515f12af51d018ea2fa9436b2b9b0a1975c5a05318f2178448cd&scene=21#wechat_redirect)
 - [第二个万能芯片探针ID注释平台R包](http://mp.weixin.qq.com/s?__biz=MzAxMDkxODM1Ng==&mid=2247492037&idx=1&sn=f6a3a38cac4c20b5428f354803444ec4&chksm=9b4ba17eac3c286897898ac8c3cd42418600cf9b206ca3f9c97b04bcf8c49553fcd52ba891ea&scene=21#wechat_redirect)
@@ -14,10 +14,40 @@
 ```r
 library(devtools)
 install_github("jmzeng1314/AnnoProbe")
-library(GEOmirror)
+library(AnnoProbe)
 ```
 
 因为这个包里面并没有加入很多数据，所以理论上会比较容易安装，当然，不排除中国大陆少部分地方基本上连GitHub都无法访问。
+
+### 以前大家是需要自己下载探针序列进行参考基因组比对后注释
+
+比如我在 [（重磅！价值一千元的R代码送给你）芯片探针序列的基因组注释](https://mp.weixin.qq.com/s/mrtjpN8yDKUdCSvSUuUwcA) 提到的例子;关于
+
+```
+Human LncRNA Expression Array V4.0 AS-LNC-H-V4.0 20,730 mRNAs and 40,173 LncRNAs 8*60K
+```
+
+这个芯片探针的重新注释，一般文献里面的描述是：
+
+- probe sequences **探针序列**下载
+- uniquely mapped to the human genome (hg19) by Bowtie without mismatch. **参考基因组下载及比对**
+- chromosomal position of lncRNA genes based on annotations from GENCODE (Release 23)坐标提取，最后使用bedtools进行坐标映射
+
+但是大部分人是没有linux操作能力，无法完成这个流程，使用我们的包可以轻轻松松达到探针注释的目的！
+
+```
+# GPL21827[Accession] - GEO DataSets Result - NCBI - NIH
+# https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL21827
+gpl='GPL21827'
+probe2gene=idmap(gpl,type = 'pipe')
+head(probe2gene)
+```
+
+轻轻松松的几行代码，就拿到了探针的注释信息哦
+
+![image-20191212105130990](readme.assets/image-20191212105130990.png)
+
+是不是很激动。
 
 ### 首先看GEO数据库下载镜像
 
