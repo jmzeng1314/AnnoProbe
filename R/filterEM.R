@@ -25,6 +25,7 @@ filterEM <- function(probes_expr,probe2gene){
   probe2gene=na.omit(probe2gene)
   # if one probe mapped to many genes, we will only keep one randomly.
   probe2gene=probe2gene[!duplicated(probe2gene$probeid),]
+  # 这个地方是有问题的，随机挑选一个注释进行后续分析。
   probe2gene = probe2gene[probe2gene$probeid %in% rownames(probes_expr),]
 
   cat(paste0('after remove NA or useless probes for probe2gene, ',nrow(probe2gene),' rows(genes or probes) left\n'))
