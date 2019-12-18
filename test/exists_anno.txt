@@ -1,0 +1,185 @@
+GPL10332	Agilent-026652 Whole Human Genome Microarray 4x44K v2 (Feature Number version)	Homo sapiens
+GPL10333	Agilent-026655 Whole Mouse Genome Microarray 4x44K v2 (Feature Number version)	Mus musculus
+GPL10334	Agilent-026657 Whole Rat Genome Microarray 4x44K v2 (Feature Number version)	Rattus norvegicus
+GPL10558	Illumina HumanHT-12 V4.0 expression beadchip	Homo sapiens
+GPL10630	Agilent-021531 Whole Human Genome Oligo Microarray 4x44K (Feature Number version)	Homo sapiens
+GPL10787	Agilent-028005 SurePrint G3 Mouse GE 8x60K Microarray (Probe Name version)	Mus musculus
+GPL11180	[HT_MG-430_PM] Affymetrix HT MG-430 PM Array Plate	Mus musculus
+GPL11202	Agilent-026655 Whole Mouse Genome Microarray 4x44K v2 (Probe Name version)	Mus musculus
+GPL11532	[HuGene-1_1-st] Affymetrix Human Gene 1.1 ST Array [transcript (gene) version]	Homo sapiens
+GPL11533	[MoGene-1_1-st] Affymetrix Mouse Gene 1.1 ST Array [transcript (gene) version]	Mus musculus
+GPL11534	[RaGene-1_1-st] Affymetrix Rat Gene 1.1 ST Array [transcript (gene) version]	Rattus norvegicus
+GPL1261	[Mouse430_2] Affymetrix Mouse Genome 430 2.0 Array	Mus musculus
+GPL13376	Illumina HumanWG-6 v2.0 expression beadchip	Homo sapiens
+GPL13497	Agilent-026652 Whole Human Genome Microarray 4x44K v2 (Probe Name version)	Homo sapiens
+GPL1352	[U133_X3P] Affymetrix Human X3P Array	Homo sapiens
+GPL1355	[Rat230_2] Affymetrix Rat Genome 230 2.0 Array	Rattus norvegicus
+GPL13607	Agilent-028004 SurePrint G3 Human GE 8x60K Microarray (Feature Number version)	Homo sapiens
+GPL13667	[HG-U219] Affymetrix Human Genome U219 Array	Homo sapiens
+GPL13825	Arraystar Human LncRNA microarray V2.0	Homo sapiens
+GPL13825	Arraystar Human LncRNA microarray V2.0 (Agilent-033010 Feature Number version)	Homo sapiens
+GPL13912	Agilent-028005 SurePrint G3 Mouse GE 8x60K Microarray (Feature Number version)	Mus musculus
+GPL13938	Illumina HumanHT-12 WG-DASL V4.0 expression beadchip	Homo sapiens
+GPL14187	[HT_Rat-Focus] Affymetrix HT Rat Focus Array	Rattus norvegicus
+GPL14550	Agilent-028004 SurePrint G3 Human GE 8x60K Microarray (Probe Name Version)	Homo sapiens
+GPL14551	Agilent-028679 SurePrint G3 Human Exon 4x180K Microarray (Feature Number Version)	Homo sapiens
+GPL14552	Agilent-028679 SurePrint G3 Human Exon 4x180K Microarray (Probe Name Version)	Homo sapiens
+GPL14745	Agilent-028282 Whole Rat Genome Microarray 4x44K v3	Rattus norvegicus
+GPL14746	Agilent-028282 Whole Rat Genome Microarray 4x44K v3 (Probe Name version)	Rattus norvegicus
+GPL14797	Agilent-028279 SurePrint G3 Rat GE 8x60K Microarray (Feature Number version)	Rattus norvegicus
+GPL15084	Agilent-028279 SurePrint G3 Rat GE 8x60K Microarray (Probe Name version)	Rattus norvegicus
+GPL15207	[PrimeView] Affymetrix Human Gene Expression Array	Homo sapiens
+GPL15314	Arraystar Human LncRNA microarray V2.0 (Agilent_033010 Probe Name version)	Homo sapiens
+GPL15690	Arraystar Rat LncRNA microarray	Rattus norvegicus
+GPL15690	Arraystar Rat LncRNA microarray (026403)	Rattus norvegicus
+GPL15691	034068 Arraystar Mouse LncRNA microarray V2.0	Mus musculus
+GPL15691	Arraystar Mouse LncRNA microarray V2.0	Mus musculus
+GPL15692	Arraystar Mouse Stringent LncRNA microarray	Mus musculus
+GPL16300	Agilent-015764 Human Microarray (Probe Name version)	Homo sapiens
+GPL16527	Agilent-022061 human lncRNA 1X244K microarray (Feature Number version)	Homo sapiens
+GPL16528	Agilent-022061 human lncRNA 1X244K microarray (Probe Name version)	Homo sapiens
+GPL16570	[MoGene-2_0-st] Affymetrix Mouse Gene 2.0 ST Array [transcript (gene) version]	Mus musculus
+GPL16699	Agilent-039494 SurePrint G3 Human GE v2 8x60K Microarray 039381	Homo sapiens
+GPL16956	Agilent-045997 Arraystar human lncRNA microarray V3 (Probe Name Version)	Homo sapiens
+GPL16956	Arraystar human lncRNA microarray V3	Homo sapiens
+GPL16981	Agilent-020087 human whole genome 4x44K (Probe Name version)	Homo sapiens
+GPL16985	[HT_Rat230_PM] Affymetrix HT RG-230 PM Array Plate	Rattus norvegicus
+GPL17077	Agilent-039494 SurePrint G3 Human GE v2 8x60K Microarray 039381 (Probe Name version)	Homo sapiens
+GPL1708	Agilent-012391 Whole Human Genome Oligo Microarray G4112A (Feature Number version)	Homo sapiens
+GPL17117	[RaGene-2_0-st] Affymetrix Rat Gene 2.0 ST Array [transcript (gene) version]	Rattus norvegicus
+GPL17400	[MoGene-2_1-st] Affymetrix Mouse Gene 2.1 ST Array [transcript (gene) version]	Mus musculus
+GPL17692	[HuGene-2_1-st] Affymetrix Human Gene 2.1 ST Array [transcript (gene) version]	Homo sapiens
+GPL17843	Agilent-042818 Human lncRNA Micorarray 8_24_v2 [Probe Name version]	Homo sapiens
+GPL17850	SBC human lncRNA 8*60K	Homo sapiens
+GPL17864	Agilent-044804 Custom Mouse Coding and LncRNA array 028005 (Feature Number version)	Mus musculus
+GPL18084	Arraystar Human LncRNA microarray V2.0 (Probe Name version)	Homo sapiens
+GPL18109	Agilent-038314 CBC Homo sapiens lncRNA + mRNA microarray V2.0 (Feature Number version)	Homo sapiens
+GPL18109	CBC Homo sapiens lncRNA + mRNA microarray V2.0	Homo sapiens
+GPL18180	Agilent-045142 Human LncRNA v4 4X180K [Probe Name Version]	Homo sapiens
+GPL18581	Agilent SurePrint G3 CBC lncRNA+mRNA microarray V2.0	Homo sapiens
+GPL19023	Arraystar Human LncRNA microarray V2.1 (Agilent_039809 custom Probe Name version)	Homo sapiens
+GPL19072	Agilent-052909 CBC_lncRNAmRNA_V3 (Probe Name version)	Homo sapiens
+GPL19112	Agilent-055693 Arraystar Mouse LncRNA microarray V3A (Probe Name version)	Mus musculus
+GPL19115	Agilent-034068 Arraystar Mouse LncRNA microarray V2.0 [feature number version]	Mus musculus
+GPL19115	Arraystar Mouse LncRNA microarray V2.0	Mus musculus
+GPL19127	Agilent-028727 SurePrint G3 Mouse Exon 2x400K Microarray [Probe Name version]	Mus musculus
+GPL19243	Agilent SurePrint G3 CBC lncRNA+mRNA microarray V2.0 (condensed version)	Homo sapiens
+GPL19271	[RaGene-2_1-st] Affymetrix Rat Gene 2.1 ST Array [transcript (gene) version]	Rattus norvegicus
+GPL19286	Arraystar Mouse LncRNA microarray V3B (Agilent-055750 custom Probe Name version)	Mus musculus
+GPL19286	Arraystar Mouse LncRNA microarray V3B (Agilent_055750 custom Probe Name version)	Mus musculus
+GPL19503	Agilent-062716 OE Rat lncRNA Microarray v2.0 028279 (Probe Name version)	Rattus norvegicus
+GPL19532	Agilent-028728 SurePrint G3 Rat Exon 2x400K Microarray	Rattus norvegicus
+GPL19612	Agilent-062918 OE Human lncRNA Microarray V4.0 028004 [Probe Name version]	Homo sapiens
+GPL19615	Agilent-067406 CBC lncRNA + mRNA microarray V4.0	Homo sapiens
+GPL19615	CBC lncRNA + mRNA microarray V4.0	Homo sapiens
+GPL19640	Agilent-062918 Human lncRNA array V4.0 (Probe name version)	Homo sapiens
+GPL19748	Agilent-038314 CBC Homo sapiens lncRNA + mRNA microarray V2.0 (Probe Name version)	Homo sapiens
+GPL19848	Agilent-067119 OE Custom Cow lncRNA Microarray (Probe Name version)	Bos taurus
+GPL19850	Agilent-060228 Human LncRNA v5 4X180K [Probe Name Version]	Homo sapiens
+GPL19920	Gencode v15 lncrna.2 probe version1 Agilent Design ID (AMADID) 047718	Homo sapiens
+GPL19946	Agilent-025238 human 4x44k microarray, customized for lncRNAs	Homo sapiens
+GPL201	[HG-Focus] Affymetrix Human HG-Focus Target Array	Homo sapiens
+GPL20113	CapitalBio Human LncRNA Microarray v2.0	Homo sapiens
+GPL20115	Agilent-067406 Human CBC lncRNA + mRNA microarray V4.0 (Probe name version)	Homo sapiens
+GPL20822	CapitalBio custom Human LncRNA array	Homo sapiens
+GPL20844	Agilent-072363 SurePrint G3 Human GE v3 8x60K Microarray 039494 [Feature Number Version]	Homo sapiens
+GPL20939	Agilent-046161 mouse LncRNA v1 8X60K [Probe Name Version]	Mus musculus
+GPL20939	Agilent-046161 mouse LncRNA v6 4X180K [Probe Name Version]	Mus musculus
+GPL21035	Agilent-074622 Mouse LncRNA v6 4X180K [Probe Name Version]	Mus musculus
+GPL21047	Agilent-074348 Human LncRNA v6 4X180K [Probe Name Version]	Homo sapiens
+GPL21096	Agilent-062918 Human lncRNA array V4.0 (Probe name version)	Homo sapiens
+GPL21163	Agilent-074809 SurePrint G3 Mouse GE v2 8x60K Microarray [Probe Name version]	Mus musculus
+GPL21185	Agilent-072363 SurePrint G3 Human GE v3 8x60K Microarray 039494 [Probe Name Version]	Homo sapiens
+GPL21242	Agilent-060228 Human LncRNA microarray (Probe Name version)	Homo sapiens
+GPL21494	State Key Laboratory Human lncRNA array 2412	Homo sapiens
+GPL21700	Agilent Custom Mouse lncRNA (4*180K, Design ID:049801)	Mus musculus
+GPL21738	Wafergen Biosystems SmartChip Human lncRNA panel	Homo sapiens
+GPL21810	Agilent-074809 SurePrint G3 Mouse GE v2 8x60K Microarray [Feature Number version]	Mus musculus
+GPL21827	Agilent-079487 Arraystar Human LncRNA microarray V4 (Probe Name version)	Homo sapiens
+GPL21827	Agilent-079487 Arraystar Human LncRNA microarray V4 (Probe Name version)	Mus musculus
+GPL21829	Agilent-083670 Arraystar Rat LncRNA microarray V2 (Probe Name version)	Rattus norvegicus
+GPL21994	Agilent-049801 Custom Mouse lncRNA 4*180K array	Mus musculus
+GPL22360	Agilent-071342 LncRNA [Probe Name version]	Homo sapiens
+GPL22361	Agilent-071342 LncRNA [Feature number version]	Homo sapiens
+GPL22613	Agilent-055693 Arraystar Mouse LncRNA microarray V3A (Probe Name version)	Mus musculus
+GPL22755	Agilent-076500 Human lncRNA+mRNA array (Probe name version)	Homo sapiens
+GPL22782	Agilent-074512 CBCmouselncRNAmRNA180k	Mus musculus
+GPL22937	Arraystar Human LncRNA Pathway microarray (Metabolism)	Homo sapiens
+GPL23146	Human 12x135K lncRNA expression array	Homo sapiens
+GPL23241	Arraystar Human LncRNA Pathway microarray (Metabolism) [Mycroarray]	Homo sapiens
+GPL23292	Agilent-067406 CBC lncRNA+mRNA microarray V3.0 (lncRNA version)	Homo sapiens
+GPL24721	Agilent-045997 Arraystar human lncRNA microarray V3 (Feature Number version)	Homo sapiens
+GPL24966	Agilent-074475 CBCratlncRNAmRNA [Probe Name version]	Rattus norvegicus
+GPL25015	Arraystar Mouse LncRNA microarray V3B (Agilent-055750 custom Probe Name version)	Mus musculus
+GPL25454	Arraystar Mouse LncRNA microarray V3B (Agilent-055750 custom Probe Name version)	Mus musculus
+GPL25961	Agilent-074348 Human (4*180K) LncRNA array (V6.0) [Feature Number Version]	Homo sapiens
+GPL26961	Arraystar Rat lncRNA V3 microarray	Rattus norvegicus
+GPL26962	Arraystar Mouse lncRNA V4 microarray	Mus musculus
+GPL26963	Arraystar human lncRNA V5 microarray	Homo sapiens
+GPL27603	Agilent-074571 RAT_LNCRNA_20150413 (Feature number version)	Rattus norvegicus
+GPL27713	Agilent-084410 Human LncRNA 4X180K [Probe Name Version]	Homo sapiens
+GPL2872	Agilent-012694 Whole Mouse Genome G4122A (Feature Number version)	Mus musculus
+GPL2877	Agilent-013162 Whole Rat Genome Microarray G4131A (Feature Number version)	Rattus norvegicus
+GPL2881	Agilent-013326 Mouse Oligo Microarray (V2) G4121B (Feature Number version)	Mus musculus
+GPL2882	Agilent-013328 Rat Oligo Microarray (V2) G4130B (Feature Number version)	Rattus norvegicus
+GPL339	[MOE430A] Affymetrix Mouse Expression 430A Array	Mus musculus
+GPL340	[MOE430B] Affymetrix Mouse Expression 430B Array	Mus musculus
+GPL4133	Agilent-014850 Whole Human Genome Microarray 4x44K G4112F (Feature Number version)	Homo sapiens
+GPL4134	Agilent-014868 Whole Mouse Genome Microarray 4x44K G4122F (Feature Number version)	Mus musculus
+GPL4135	Agilent-014879 Whole Rat Genome Microarray 4x44K G4131F (Feature Number version)	Rattus norvegicus
+GPL4234	Sentrix Mouse-6 Expression BeadChip	Mus musculus
+GPL4865	Sentrix MouseRef-8 Expression BeadChip (Target ID)	Mus musculus
+GPL570	[HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array	Homo sapiens
+GPL571	[HG-U133A_2] Affymetrix Human Genome U133A 2.0 Array	Homo sapiens
+GPL6097	Illumina human-6 v1.0 expression beadchip	Homo sapiens
+GPL6098	Illumina humanRef-8 v1.0 expression beadchip	Homo sapiens
+GPL6099	Illumina mouse-6 v1.0 expression beadchip	Mus musculus
+GPL6100	Illumina mouseRef-8 v1.0 expression beadchip	Mus musculus
+GPL6101	Illumina ratRef-12 v1.0 expression beadchip	Rattus norvegicus
+GPL6102	Illumina human-6 v2.0 expression beadchip	Homo sapiens
+GPL6103	Illumina mouseRef-8 v1.1 expression beadchip	Mus musculus
+GPL6104	Illumina humanRef-8 v2.0 expression beadchip	Homo sapiens
+GPL6105	Illumina mouse-6 v1.1 expression beadchip	Mus musculus
+GPL6244	[HuGene-1_0-st] Affymetrix Human Gene 1.0 ST Array [transcript (gene) version]	Homo sapiens
+GPL6246	[MoGene-1_0-st] Affymetrix Mouse Gene 1.0 ST Array [transcript (gene) version]	Mus musculus
+GPL6247	[RaGene-1_0-st] Affymetrix Rat Gene 1.0 ST Array [transcript (gene) version]	Rattus norvegicus
+GPL6466	Agilent-011978 Mouse Microarray G4121A (Probe Name version)	Mus musculus
+GPL6480	Agilent-014850 Whole Human Genome Microarray 4x44K G4112F (Probe Name version)	Homo sapiens
+GPL6848	Agilent-012391 Whole Human Genome Oligo Microarray G4112A (Probe Name version)	Homo sapiens
+GPL6883	Illumina HumanRef-8 v3.0 expression beadchip	Homo sapiens
+GPL6884	Illumina HumanWG-6 v3.0 expression beadchip	Homo sapiens
+GPL6885	Illumina MouseRef-8 v2.0 expression beadchip	Mus musculus
+GPL6947	Illumina HumanHT-12 V3.0 expression beadchip	Homo sapiens
+GPL7042	Agilent-012694 Whole Mouse Genome G4122A (Probe Name version)	Mus musculus
+GPL7202	Agilent-014868 Whole Mouse Genome Microarray 4x44K G4122F (Probe Name version)	Mus musculus
+GPL7260	Agilent-011521 Human 1A Microarray G4110A (Probe Name version)	Homo sapiens
+GPL7263	Agilent-011871 Human 1B Microarray G4111A (Probe Name version)	Homo sapiens
+GPL7264	Agilent-012097 Human 1A Microarray (V2) G4110B (Probe Name version)	Homo sapiens
+GPL7267	Agilent-011868 Rat Oligo Microarray G4130A (Probe Name version)	Rattus norvegicus
+GPL7269	Agilent-011472 Mouse Development Oligo Microarray G4120A (Probe Name version)	Mus musculus
+GPL7289	Agilent-013162 Whole Rat Genome Microarray G4131A (Probe Name version)	Rattus norvegicus
+GPL7291	Agilent-013326 Mouse Oligo Microarray (V2) G4121B (Probe Name version)	Mus musculus
+GPL7292	Agilent-013328 Rat Oligo Microarray (V2) G4130B (Probe Name version)	Rattus norvegicus
+GPL7294	Agilent-014879 Whole Rat Genome Microarray 4x44K G4131F (Probe Name version)	Rattus norvegicus
+GPL81	[MG_U74Av2] Affymetrix Murine Genome U74A Version 2 Array	Mus musculus
+GPL82	[MG_U74Bv2] Affymetrix Murine Genome U74B Version 2 Array	Mus musculus
+GPL83	[MG_U74Cv2] Affymetrix Murine Genome U74 Version 2 Array	Mus musculus
+GPL8300	[HG_U95Av2] Affymetrix Human Genome U95 Version 2 Array	Homo sapiens
+GPL8321	[Mouse430A_2] Affymetrix Mouse Genome 430A 2.0 Array	Mus musculus
+GPL8432	Illumina HumanRef-8 WG-DASL v3.0	Homo sapiens
+GPL85	[RG_U34A] Affymetrix Rat Genome U34 Array	Rattus norvegicus
+GPL86	[RG_U34B] Affymetrix Rat Genome U34 Array	Rattus norvegicus
+GPL87	[RG_U34C] Affymetrix Rat Genome U34 Array	Rattus norvegicus
+GPL885	Agilent-011521 Human 1A Microarray G4110A  (Feature Number version)	Homo sapiens
+GPL886	Agilent-011871 Human 1B Microarray G4111A (Feature Number version)	Homo sapiens
+GPL887	Agilent-012097 Human 1A Microarray (V2) G4110B (Feature Number version)	Homo sapiens
+GPL89	[RT_U34] Affymetrix Rat Toxicology U34 Array	Rattus norvegicus
+GPL890	Agilent-011868 Rat Oligo Microarray G4130A (Feature Number version)	Rattus norvegicus
+GPL891	Agilent-011978 Mouse Microarray G4121A (Feature Number version)	Mus musculus
+GPL91	[HG_U95A] Affymetrix Human Genome U95A Array	Homo sapiens
+GPL92	[HG_U95B] Affymetrix Human Genome U95B Array	Homo sapiens
+GPL93	[HG_U95C] Affymetrix Human Genome U95C Array	Homo sapiens
+GPL94	[HG_U95D] Affymetrix Human Genome U95D Array	Homo sapiens
+GPL95	[HG_U95E] Affymetrix Human Genome U95E Array	Homo sapiens
+GPL96	[HG-U133A] Affymetrix Human Genome U133A Array	Homo sapiens
+GPL97	[HG-U133B] Affymetrix Human Genome U133B Array	Homo sapiens

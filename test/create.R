@@ -34,15 +34,18 @@ do.call("use_data",ns)
 # scp  *_soft.rda  jmzeng@49.235.27.111:/project/GEOmirror/GPL
 
 ## 把hisat2比对和bedtools依据gtf注释后的每个gpl的探针对应基因load进去
+## 读取文件夹下面，全部的.probe2gene结尾的文件。
 options(stringsAsFactors = F)
-list.files('../last/')
-p2s_list_pipe <- lapply(list.files('../last/'), function(x){
-  a=read.table(file.path('../last/',x))
+fs=list.files(pattern = 'probe2gene')
+fs
+p2s_list_pipe <- lapply(fs, function(x){
+  a=read.table(file.path('./',x))
   colnames(a)=c('probe_id','symbol')
   a$gpl=paste0(strsplit(x,'_')[[1]][1],'_pipe')
   return(a)
 })
 lapply(p2s_list_pipe, head)
+
 if(F){
   library(RSQLite)
   sqlite    <- dbDriver("SQLite")
@@ -55,6 +58,9 @@ if(F){
   # it's too big, more than 200 Mb, so quit.
 }
 
+rm(list=ls())
+options(stringsAsFactors = F)
+load('p2s_list_pipe_lncRNA.Rdata')
 ns=lapply(p2s_list_pipe, function(x){
   # x=tmp[[1]]
   ids=x[,-3]
@@ -70,11 +76,12 @@ rm(list=ls())
 options(stringsAsFactors = F)
 gpl_list=read.csv('gpl_list.csv')
 usethis::use_data(gpl_list)
-
+# scp  *_soft.rda  jmzeng@49.235.27.111:/project/GEOmirror/GPL
 
 rm(list=ls())
 options(stringsAsFactors = F)
-exists_anno_list=read.csv('test/exists_anno.txt',header = F)[,1]
-usethis::use_data(exists_anno_list)
+exists_anno_list=read.table('test/exists_anno.txt',header = F,sep='\t')[,1]
+exists_anno_list=unique(exists_anno_list)
+usethis::use_data(exists_anno_list,overwrite = T)
 
 
