@@ -80,7 +80,9 @@ usethis::use_data(gpl_list)
 
 rm(list=ls())
 options(stringsAsFactors = F)
-exists_anno_list=read.table('test/exists_anno.txt',header = F,sep='\t')[,1]
+gpl_list=read.table('test/exists_anno.txt',header = F,sep='\t')
+usethis::use_data(gpl_list,overwrite = T)
+exists_anno_list=gpl_list[,1]
 exists_anno_list=unique(exists_anno_list)
 usethis::use_data(exists_anno_list,overwrite = T)
 

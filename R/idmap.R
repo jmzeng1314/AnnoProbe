@@ -50,7 +50,7 @@ checkGPL <- function(GPL=NULL){
     stop("please input GPL number")
   }
   GPLList <- getGPLList()
-  flag = (GPL %in% GPLList$gpl)
+  flag = (GPL %in% GPLList[,1])
   return(flag)
 }
 
@@ -68,7 +68,7 @@ printGPLInfo <- function(GPL=NULL){
 
     }
     tryCatch(utils::data("gpl_list", package="AnnoProbe"))
-    gpl_list <- gpl_list[gpl_list$gpl==GPL,]
+    gpl_list <- gpl_list[gpl_list[,1]==GPL,]
   }else{
     gpl_list <- t(getGPLList())
   }
