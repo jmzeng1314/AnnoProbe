@@ -23,7 +23,8 @@ idmap <- function(gpl='GPL570',type='bioc',mirror='tercent'){
     tryCatch(utils::data("exists_anno_list", package="AnnoProbe"))
     gpl_anno=gpl_anno [gpl_anno %in% exists_anno_list]
 
-    if( paste(gpl, type,sep='_')  %in% exists_anno_list){
+    # if( paste(gpl, type,sep='_')  %in% exists_anno_list){
+     if(T){
       tpf=paste0( paste(gpl, type,sep='_'),'.rda')
       down=paste0('/GEOmirror/GPL/',tpf)
       download.file(paste0(up,down),tpf,mode = "wb")

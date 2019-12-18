@@ -2,6 +2,7 @@
 # https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6480
 rm(list = ls())
 library(AnnoProbe)
+
 ids2=idmap(gpl='GPL6480',type = 'soft')
 head(ids2)
 ids3=idmap(gpl='GPL6480',type = 'pipe')
