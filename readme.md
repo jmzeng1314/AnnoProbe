@@ -4,8 +4,8 @@
 
 - [第三个万能芯片探针ID注释平台R包](http://mp.weixin.qq.com/s?__biz=MzAxMDkxODM1Ng==&mid=2247492052&idx=1&sn=e640e0d9468f60616bddf9494117d0b8&chksm=9b4ba16fac3c287934abe0c6515f12af51d018ea2fa9436b2b9b0a1975c5a05318f2178448cd&scene=21#wechat_redirect)
 - [第二个万能芯片探针ID注释平台R包](http://mp.weixin.qq.com/s?__biz=MzAxMDkxODM1Ng==&mid=2247492037&idx=1&sn=f6a3a38cac4c20b5428f354803444ec4&chksm=9b4ba17eac3c286897898ac8c3cd42418600cf9b206ca3f9c97b04bcf8c49553fcd52ba891ea&scene=21#wechat_redirect)
-- [第一个万能芯片探针ID注释平台R包](http://mp.weixin.qq.com/s?__biz=MzAxMDkxODM1Ng==&mid=2247492027&idx=1&sn=9ae651dda053e3e3778d4557b141b6bd&chksm=9b4ba100ac3c28160ac6eaed032782c35218330420cf197d26fbff83602f35a556d25433fe0e&scene=21#wechat_redirect)
-- [GEO数据库中国区镜像横空出世](http://mp.weixin.qq.com/s?__biz=MzAxMDkxODM1Ng==&mid=2247492027&idx=2&sn=d8d1f2009aa9e50506c2259021b65e1a&chksm=9b4ba100ac3c281677f74a72910fa25662e9e7a888542e29867400458558593d3986a5f6e19c&scene=21#wechat_redirect)
+- [第一个万能芯片探针ID注释平台R包](https://mp.weixin.qq.com/s/CzV9zv0AbhhfTalVomTGCw)
+- [GEO数据库中国区镜像横空出世](https://mp.weixin.qq.com/s/0rXp-n4NvCmwqh4eyGJvQw)
 
 有趣的是，因为这些包存储在GitHub，而且每个包自带的**数据是40~50M**，对很多在中国大陆的朋友来说， 几乎是不可能完成，所以我把这4个包整合成为了一个GitHub包（**AnnoProbe**）！总共不到5M，相信大家使用起来应该是很方便啦！
 
@@ -35,7 +35,7 @@ Human LncRNA Expression Array V4.0 AS-LNC-H-V4.0 20,730 mRNAs and 40,173 LncRNAs
 
 但是大部分人是没有linux操作能力，无法完成这个流程，使用我们的包可以轻轻松松达到探针注释的目的！
 
-```
+```r
 # GPL21827[Accession] - GEO DataSets Result - NCBI - NIH
 # https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL21827
 gpl='GPL21827'
@@ -43,7 +43,7 @@ probe2gene=idmap(gpl,type = 'pipe')
 head(probe2gene)
 ```
 
-轻轻松松的几行代码，就拿到了探针的注释信息哦
+轻轻松松的几行代码，就拿到了探针的注释信息哦，就是我帮你跑完了芯片探针的重新注释，而且把注释好的结果返回给你。
 
 ![image-20191212105130990](readme.assets/image-20191212105130990.png)
 
