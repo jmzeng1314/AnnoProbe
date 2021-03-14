@@ -6,18 +6,21 @@
 ##'      geoChina('gse1009') is the same as eSet=getGEO('gse1009', getGPL = F)
 ##'
 ##' @param gse input GSE id, such as GSE1009, GSE2546, default:GSE2546
-##' @import GEOquery
+##' @param mirror "tencent" only for now
 ##' @return a list of ExpressionSet, which contains the  expression matrix and phenotype data
+##' @importFrom utils download.file
 ##' @examples
+##' \dontrun{
 ##' geoChina()
 ##' geoChina('gse1009')
 ##' geoChina('GSE1009')
+##' }
 ##' @export geoChina
 
-geoChina <- function(gse='GSE2546',mirror='tercent'){
+geoChina <- function(gse='GSE2546',mirror='tencent'){
   # eSet=getGEO('GSE2546', destdir=".", AnnotGPL = F, getGPL = F)
   # http://49.235.27.111/GEOmirror/GSE2nnn/GSE2546_eSet.Rdata
-  # gse='GSE2546';mirror='tercent'
+  # gse='GSE2546';mirror='tencent'
   gse=toupper(gse)
   if(!gse %in% series.accession){
     stop('Your GSE may not be expression by array, or even not a GSE')
@@ -29,7 +32,7 @@ geoChina <- function(gse='GSE2546',mirror='tercent'){
                      gsub('[0-9][0-9][0-9]$','nnn',gse),'/',gse,
                      '_eSet.Rdata'))
 
-  if(mirror=='tercent'){
+  if(mirror=='tencent'){
     up='http://49.235.27.111'
   }
   tpf=paste0(gse, '_eSet.Rdata')

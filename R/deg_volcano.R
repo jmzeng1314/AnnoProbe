@@ -6,15 +6,18 @@
 ##' @param style you can try 1 or 2, default: 1
 ##' @param p_thred default:0.05
 ##' @param logFC_thred default:1
-##' @import ggplot2
-##' @import ggpubr
+##' @importFrom ggplot2 ggplot aes geom_point theme_set theme_bw xlab ylab ggtitle theme element_text scale_colour_manual
+##' @importFrom ggpubr ggscatter
+##' @importFrom utils head
 ##' @export
 ##' @return a ggplot2 style figure.
 ##' @examples
+##' \dontrun{
 ##' deg=GSE27533$DEG
 ##' need_deg=data.frame(symbols=rownames(deg), logFC=deg$logFC, p=deg$P.Value)
 ##' deg_volcano(need_deg,1)
 ##' deg_volcano(need_deg,2)
+##' }
 deg_volcano <- function(need_deg,style=1,p_thred=0.05,logFC_thred=1){
   # need_deg should be 3 columns : gene, logFC, p.value(or p.adjust)
   colnames(need_deg)=c('gene','logFC','p')
@@ -37,7 +40,6 @@ deg_volcano <- function(need_deg,style=1,p_thred=0.05,logFC_thred=1){
                         '\nThe number of down gene is ',nrow(need_deg[need_deg$change =='DOWN',])
     )
     cat(this_tile)
-    library(ggplot2)
     g = ggplot(data=need_deg,
                aes(x=logFC, y=-log10(p),
                    color=change)) +
@@ -50,7 +52,6 @@ deg_volcano <- function(need_deg,style=1,p_thred=0.05,logFC_thred=1){
   }
 
   if(style==2){
-      library(ggpubr)
       # p_thred=0.05;logFC_thred=1
       need_deg$g=ifelse(need_deg$p > p_thred,'stable',
                   ifelse( need_deg$logFC > logFC_thred,'up',

@@ -7,14 +7,16 @@
 ##' @param  group_list, a vector
 ##' @param topn the number of genes in heatmap, default:20
 ##' @import ggplot2
-##' @import pheatmap
+##' @importFrom pheatmap pheatmap
+##' @importFrom utils head tail
 ##' @return a ggplot2 style figure.
 ##' @examples
+##' \dontrun{
 ##' attach(GSE27533)
 ##' deg_heatmap(DEG,genes_expr)
+##' }
 ##' @export
 deg_heatmap <- function(deg,genes_expr,group_list,topn=20){
-  library(pheatmap)
   x=deg[,1]
   names(x)=rownames(deg)
   cg=c(names(head(sort(x),topn)),

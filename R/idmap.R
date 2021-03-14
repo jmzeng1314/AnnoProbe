@@ -1,20 +1,23 @@
 ##' Get Probe Annotation
 ##'
 ##' \code{getGPLAnno} returns probe annotations for input gpl
-##' @param GPL GPL(GEO platform) number, eg: GPL570
-##' @param source source of probe anntation stored, one of "pipe", "bioc", "soft", default:"pipe"
+##' @param gpl GPL(GEO platform) number, eg: GPL570
+##' @param type source of probe anntation stored, one of "pipe", "bioc", "soft", default:"pipe"
+##' @param mirror "tencent" only for now
 ##' @return probe annotaions
-##'
+##' @importFrom utils download.file data
 ##' @examples
+##' \dontrun{
 ##' ids=idmap('GPL570')
 ##' ids=idmap('GPL570',type='soft')
 ##' ids=idmap('GPL18084',type='pipe')
+##' }
 ##' @export
 ##'
-idmap <- function(gpl='GPL570',type='bioc',mirror='tercent'){
+idmap <- function(gpl='GPL570',type='bioc',mirror='tencent'){
   gpl=toupper(gpl)
   gpl_anno=paste(gpl,c('bioc','soft','pipe'),sep='_')
-  if(mirror=='tercent'){
+  if(mirror=='tencent'){
     up='http://49.235.27.111'
   }
   if(!checkGPL(gpl)){

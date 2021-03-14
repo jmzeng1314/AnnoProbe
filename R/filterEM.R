@@ -5,13 +5,16 @@
 ##' @param probes_expr is an expression matrix which rownames are probes of probe2gene and each column is a sample
 ##' @param probe2gene  the first column is probes and the second column is corresponding gene symbols
 ##' @return a expression matrix which has been filtered duplicated gene symbols
-##'
+##' @importFrom utils head
+##' @importFrom stats na.omit median
 ##' @examples
+##' \dontrun{
 ##' attach(GSE95166)
 ##' head(probes_expr)
 ##' head(probe2gene)
 ##' genes_expr <- filterEM(probes_expr,probe2gene)
 ##' head(genes_expr)
+##' }
 ##' @export
 filterEM <- function(probes_expr,probe2gene){
   colnames(probe2gene) <- c("probeid","symbol")
