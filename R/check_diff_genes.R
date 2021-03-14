@@ -8,16 +8,18 @@
 #' @param genes_expr An expression matrix, the rownames should be  gene symbol.
 #' @param group_list A vector contains the group information of each samples in  expression matrix
 #' @export
-#' @import ggpubr
-#' @import pheatmap
+#' @importFrom ggpubr ggboxplot
+#' @importFrom pheatmap pheatmap
 #' @return A figure : boxplot or heatmap
 #' @examples
+#' \dontrun{
 #' attach(GSE95166)
 #' check_diff_genes('NKILA',genes_expr,group_list )
 #' x=DEG$logFC
 #' names(x)=rownames(DEG)
 #' cg=c(names(head(sort(x),100)),  names(tail(sort(x),100)))
 #' check_diff_genes(cg,genes_expr,group_list )
+#' }
 
 check_diff_genes <- function(gene,genes_expr,group_list ){
   if(length(gene)==1){
@@ -27,12 +29,10 @@ check_diff_genes <- function(gene,genes_expr,group_list ){
     }
     df=data.frame(value=as.numeric(genes_expr[gene,]),
                   group=group_list)
-    library(ggpubr)
     ggboxplot(df, "group", "value",
               color = "group", palette =c("#00AFBB", "#E7B800"),
               add = "jitter", shape = "group")
   }else{
-    library(pheatmap)
     cg=gene
     cg=cg[cg %in%  rownames(genes_expr) ]
     warning(paste0('Only ',length(cg),' in ',length(gene),' genes are in your expression matrix'))
