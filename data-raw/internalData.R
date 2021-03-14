@@ -2,4 +2,9 @@
 load("data-raw/exists_anno_list.rda")
 load("data-raw/gpl_list.rda")
 load("data-raw/series.accession.rda")
-usethis::use_data(exists_anno_list, gpl_list, series.accession, internal = TRUE, overwrite = TRUE)
+load("data-raw/humanGTF.rda")
+load("data-raw/mouseGTF.rda")
+load("data-raw/ratGTF.rda")
+usethis::use_data(exists_anno_list, gpl_list, series.accession,
+                  humanGTF, mouseGTF, ratGTF,
+                  internal = TRUE, overwrite = TRUE)
