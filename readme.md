@@ -45,7 +45,7 @@ head(probe2gene)
 
 轻轻松松的几行代码，就拿到了探针的注释信息哦，就是我帮你跑完了芯片探针的重新注释，而且把注释好的结果返回给你。
 
-![image-20191212105130990](readme.assets/image-20191212105130990.png)
+![image-20191212105130990](https://cdn.jsdelivr.net/gh/xiayh17/Figs@main/uPic/image-20191212105130990.png)
 
 是不是很激动。
 
