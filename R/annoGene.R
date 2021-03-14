@@ -7,14 +7,18 @@
 ##' @param ID_type the type of input IDs, should be "ENSEMBL" or "SYMBOL"
 ##' @param species choose human or mouse, or rat, default: human
 ##' @param out_file the filename, should be ".csv" or ".html".
-##' @import DT
+##' @importFrom DT datatable saveWidget
+##' @importFrom methods hasArg
+##' @importFrom utils write.csv
 ##' @return a dataframe which columns contain genesymbol, biotypes, ensembl ids and the positions of genes
 ##' @examples
+##' \dontrun{
 ##' IDs <- c("DDX11L1", "MIR6859-1", "OR4G4P", "OR4F5")
 ##' ID_type = "SYMBOL"
 ##' annoGene(IDs, ID_type)
 ##' annoGene(IDs, ID_type,out_file ='tmp.html')
 ##' annoGene(IDs, ID_type,out_file ='tmp.csv')
+##' }
 ##' @export
 annoGene <- function(IDs,ID_type,species='human',out_file){
   if(length(unique(IDs))<1){
