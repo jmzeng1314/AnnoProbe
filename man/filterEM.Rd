@@ -19,9 +19,11 @@ a expression matrix which has been filtered duplicated gene symbols
 because there will be many probes mapped to same genes, we will only keep the max value one.
 }
 \examples{
+\dontrun{
 attach(GSE95166)
 head(probes_expr)
 head(probe2gene)
 genes_expr <- filterEM(probes_expr,probe2gene)
 head(genes_expr)
+}
 }

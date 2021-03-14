@@ -4,10 +4,12 @@
 \alias{geoChina}
 \title{Download expression dataset by GSE id}
 \usage{
-geoChina(gse = "GSE2546", mirror = "tercent")
+geoChina(gse = "GSE2546", mirror = "tencent")
 }
 \arguments{
 \item{gse}{input GSE id, such as GSE1009, GSE2546, default:GSE2546}
+
+\item{mirror}{"tencent" only for now}
 }
 \value{
 a list of ExpressionSet, which contains the  expression matrix and phenotype data
@@ -19,7 +21,9 @@ a list of ExpressionSet, which contains the  expression matrix and phenotype dat
      geoChina('gse1009') is the same as eSet=getGEO('gse1009', getGPL = F)
 }
 \examples{
+\dontrun{
 geoChina()
 geoChina('gse1009')
 geoChina('GSE1009')
+}
 }

@@ -23,10 +23,12 @@ The boxplot or heatmap will be drawed.
 just a wrap function of ggpubr and pheatmap.
 }
 \examples{
+\dontrun{
 attach(GSE95166)
 check_diff_genes('NKILA',genes_expr,group_list )
 x=DEG$logFC
 names(x)=rownames(DEG)
 cg=c(names(head(sort(x),100)),  names(tail(sort(x),100)))
 check_diff_genes(cg,genes_expr,group_list )
+}
 }
