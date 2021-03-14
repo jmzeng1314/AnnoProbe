@@ -4,12 +4,14 @@
 \alias{idmap}
 \title{Get Probe Annotation}
 \usage{
-idmap(gpl = "GPL570", type = "bioc", mirror = "tercent")
+idmap(gpl = "GPL570", type = "bioc", mirror = "tencent")
 }
 \arguments{
-\item{GPL}{GPL(GEO platform) number, eg: GPL570}
+\item{gpl}{GPL(GEO platform) number, eg: GPL570}
 
-\item{source}{source of probe anntation stored, one of "pipe", "bioc", "soft", default:"pipe"}
+\item{type}{source of probe anntation stored, one of "pipe", "bioc", "soft", default:"pipe"}
+
+\item{mirror}{"tencent" only for now}
 }
 \value{
 probe annotaions
@@ -18,7 +20,9 @@ probe annotaions
 \code{getGPLAnno} returns probe annotations for input gpl
 }
 \examples{
+\dontrun{
 ids=idmap('GPL570')
 ids=idmap('GPL570',type='soft')
 ids=idmap('GPL18084',type='pipe')
+}
 }
