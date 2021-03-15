@@ -2,8 +2,8 @@
 
 上周我们发布的**四个R包**基本上能进解决**表达芯片数据挖掘的88%的问题**，如下:
 
-- [第三个万能芯片探针ID注释平台R包](http://mp.weixin.qq.com/s?__biz=MzAxMDkxODM1Ng==&mid=2247492052&idx=1&sn=e640e0d9468f60616bddf9494117d0b8&chksm=9b4ba16fac3c287934abe0c6515f12af51d018ea2fa9436b2b9b0a1975c5a05318f2178448cd&scene=21#wechat_redirect)
-- [第二个万能芯片探针ID注释平台R包](http://mp.weixin.qq.com/s?__biz=MzAxMDkxODM1Ng==&mid=2247492037&idx=1&sn=f6a3a38cac4c20b5428f354803444ec4&chksm=9b4ba17eac3c286897898ac8c3cd42418600cf9b206ca3f9c97b04bcf8c49553fcd52ba891ea&scene=21#wechat_redirect)
+- [第三个万能芯片探针ID注释平台R包](https://mp.weixin.qq.com/s/JsKux07iRKdiMLnbCWhuLg)
+- [第二个万能芯片探针ID注释平台R包](https://mp.weixin.qq.com/s/B_e8TbOim5jBKYLxvdZM3w)
 - [第一个万能芯片探针ID注释平台R包](https://mp.weixin.qq.com/s/CzV9zv0AbhhfTalVomTGCw)
 - [GEO数据库中国区镜像横空出世](https://mp.weixin.qq.com/s/0rXp-n4NvCmwqh4eyGJvQw)
 
