@@ -4,7 +4,7 @@
 \alias{idmap}
 \title{Get Probe Annotation}
 \usage{
-idmap(gpl = "GPL570", type = "bioc", mirror = "tencent")
+idmap(gpl = "GPL570", type = "bioc", mirror = "tencent", destdir = getwd())
 }
 \arguments{
 \item{gpl}{GPL(GEO platform) number, eg: GPL570}
@@ -12,17 +12,19 @@ idmap(gpl = "GPL570", type = "bioc", mirror = "tencent")
 \item{type}{source of probe anntation stored, one of "pipe", "bioc", "soft", default:"pipe"}
 
 \item{mirror}{"tencent" only for now}
+
+\item{destdir}{The destination directory for data downloads.}
 }
 \value{
 probe annotaions
 }
 \description{
-\code{getGPLAnno} returns probe annotations for input gpl
+\code{idmap} returns probe annotations for input gpl
 }
 \examples{
-\dontrun{
-ids=idmap('GPL570')
-ids=idmap('GPL570',type='soft')
-ids=idmap('GPL18084',type='pipe')
+ids=idmap('GPL570',destdir=tempdir())
+\donttest{
+ids=idmap('GPL570',type='soft',destdir=tempdir())
+ids=idmap('GPL18084',type='pipe',destdir=tempdir())
 }
 }

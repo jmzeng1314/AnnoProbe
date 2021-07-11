@@ -12,11 +12,11 @@
 ##' @export
 ##' @return a ggplot2 style figure.
 ##' @examples
-##' \dontrun{
 ##' deg=GSE27533$DEG
 ##' need_deg=data.frame(symbols=rownames(deg), logFC=deg$logFC, p=deg$P.Value)
-##' deg_volcano(need_deg,1)
 ##' deg_volcano(need_deg,2)
+##' \donttest{
+##' deg_volcano(need_deg,1)
 ##' }
 deg_volcano <- function(need_deg,style=1,p_thred=0.05,logFC_thred=1){
   # need_deg should be 3 columns : gene, logFC, p.value(or p.adjust)
@@ -39,7 +39,7 @@ deg_volcano <- function(need_deg,style=1,p_thred=0.05,logFC_thred=1){
                         '\nThe number of up gene is ',nrow(need_deg[need_deg$change =='UP',]) ,
                         '\nThe number of down gene is ',nrow(need_deg[need_deg$change =='DOWN',])
     )
-    cat(this_tile)
+    # message(this_tile)
     g = ggplot(data=need_deg,
                aes(x=logFC, y=-log10(p),
                    color=change)) +
@@ -59,7 +59,7 @@ deg_volcano <- function(need_deg,style=1,p_thred=0.05,logFC_thred=1){
       )
 
       need_deg$p = -log10( need_deg$p)
-      cat(table(need_deg$g))
+      # message(table(need_deg$g))
       p=ggscatter(need_deg, x = "logFC", y = "p", color = "g",size = 0.5,
                 label = "gene", repel = T,
                 label.select =head(need_deg$gene),

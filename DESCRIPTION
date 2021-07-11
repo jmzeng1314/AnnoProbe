@@ -1,44 +1,46 @@
 Package: AnnoProbe
 Type: Package
 Title: Annotate the Gene Symbols for Probes in Expression Array
-Version: 0.1.0
-Date: 2021-03-15
+Version: 0.1.6
+Date: 2021-07-11
 Authors@R: 
     c(
     person(given = "Jianming",
            family = "Zeng",
-           role = c("aut", "cre"),
+           role = "aut",
            email = "jmzeng1314@163.com"),
     person(given = "Yujia",
            family = "Xiang",
-           role = c("aut")),
+           role = "aut"),
     person(given = "Yonghe",
            family = "Xia",
-           role = "ctb",
+           role = c("ctb", "cre"),
            email = "xiayh17@gmail.com")
     )
-Maintainer: Jianming Zeng <jmzeng1314@163.com>
+Maintainer: Yonghe Xia <xiayh17@gmail.com>
 Description: We curated 147 of expression array, from 3 species(human,mouse,rat), 
-              3 companies(Affymetrix,Illumina,Agilent), 
-              by aligning the Fasta sequences of all probes of each platform to their corresponding reference genome, 
+              3 companies('Affymetrix','Illumina','Agilent'), 
+              by aligning the 'Fasta' sequences of all probes of each platform to their corresponding reference genome, 
               and then annotate them to genes. 
 License: Apache License (>= 2)
 Encoding: UTF-8
+URL: https://github.com/jmzeng1314/AnnoProbe
 LazyData: true
 RoxygenNote: 7.1.1
 Depends:
     R (>= 3.4.0)
 Imports:
-    limma,
     ggplot2,
     DT,
     ggpubr,
     pheatmap,
     utils,
     methods,
+    Biobase,
     stats
-biocViews:
+biocViews: DataImport, Microarray, OneChannel, SAGE, Software, TwoChannel
 Suggests: 
+    limma,
     GEOquery,
     knitr,
     rmarkdown

@@ -22,10 +22,10 @@ a ggplot2 style figure.
 \code{deg_volcano} will draw a volcano for you.
 }
 \examples{
-\dontrun{
 deg=GSE27533$DEG
 need_deg=data.frame(symbols=rownames(deg), logFC=deg$logFC, p=deg$P.Value)
-deg_volcano(need_deg,1)
 deg_volcano(need_deg,2)
+\donttest{
+deg_volcano(need_deg,1)
 }
 }

@@ -12,24 +12,25 @@
 #' @importFrom pheatmap pheatmap
 #' @return A figure : boxplot or heatmap
 #' @examples
-#' \dontrun{
 #' attach(GSE95166)
-#' check_diff_genes('NKILA',genes_expr,group_list )
+#' check_diff_genes('LRCH3',genes_expr,group_list )
+#' \donttest{
 #' x=DEG$logFC
 #' names(x)=rownames(DEG)
 #' cg=c(names(head(sort(x),100)),  names(tail(sort(x),100)))
 #' check_diff_genes(cg,genes_expr,group_list )
 #' }
 
+
 check_diff_genes <- function(gene,genes_expr,group_list ){
   if(length(gene)==1){
-    # gene='NKILA'
+
     if(! gene %in% rownames(genes_expr)){
       stop(paste0(gene,' in not in your expression matrix'))
     }
     df=data.frame(value=as.numeric(genes_expr[gene,]),
                   group=group_list)
-    ggboxplot(df, "group", "value",
+    ggpubr::ggboxplot(df, "group", "value",
               color = "group", palette =c("#00AFBB", "#E7B800"),
               add = "jitter", shape = "group")
   }else{
@@ -45,7 +46,7 @@ check_diff_genes <- function(gene,genes_expr,group_list ){
     n[1:4,1:4]
     ac=data.frame(group_list=group_list)
     rownames(ac)=colnames(n)
-    pheatmap(n,show_colnames =F,show_rownames = F,
+    pheatmap::pheatmap(n,show_colnames =F,show_rownames = F,
              annotation_col=ac)
   }
 

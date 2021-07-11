@@ -3,3 +3,4 @@
 ^LICENSE\.md$
 ^dev$
 ^data-raw$
+^cran-comments\.md$

@@ -1,1 +1,1 @@
-utils::globalVariables(c("humanGTF", "mouseGTF", "ratGTF", "logFC", "gset", "change"))
+utils::globalVariables(c("humanGTF", "mouseGTF", "ratGTF", "logFC", "gset", "change", "GSE95166"))

@@ -11,10 +11,8 @@
 ##' @importFrom utils head tail
 ##' @return a ggplot2 style figure.
 ##' @examples
-##' \dontrun{
 ##' attach(GSE27533)
-##' deg_heatmap(DEG,genes_expr)
-##' }
+##' deg_heatmap(DEG,genes_expr,group_list)
 ##' @export
 deg_heatmap <- function(deg,genes_expr,group_list,topn=20){
   x=deg[,1]

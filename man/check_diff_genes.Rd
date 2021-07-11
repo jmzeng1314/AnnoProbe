@@ -23,9 +23,9 @@ The boxplot or heatmap will be drawed.
 just a wrap function of ggpubr and pheatmap.
 }
 \examples{
-\dontrun{
 attach(GSE95166)
-check_diff_genes('NKILA',genes_expr,group_list )
+check_diff_genes('LRCH3',genes_expr,group_list )
+\donttest{
 x=DEG$logFC
 names(x)=rownames(DEG)
 cg=c(names(head(sort(x),100)),  names(tail(sort(x),100)))

@@ -23,11 +23,11 @@ annoGene will return a data.frame of gene information or write them to a file (c
 The user should set a list of genes to be annotated, with  "ENSEMBL" or "SYMBOL" style.
 }
 \examples{
-\dontrun{
 IDs <- c("DDX11L1", "MIR6859-1", "OR4G4P", "OR4F5")
 ID_type = "SYMBOL"
 annoGene(IDs, ID_type)
-annoGene(IDs, ID_type,out_file ='tmp.html')
-annoGene(IDs, ID_type,out_file ='tmp.csv')
+\donttest{
+annoGene(IDs, ID_type,out_file = tempfile(fileext = ".html"))
+annoGene(IDs, ID_type,out_file = tempfile(fileext = ".csv"))
 }
 }
