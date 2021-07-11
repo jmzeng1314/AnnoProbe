@@ -44,7 +44,7 @@ idmap <- function(gpl='GPL570',type='bioc',mirror='tencent',destdir=getwd()){
 
       down=paste0('/GEOmirror/GPL/',tpf)
       download.file(paste0(up,down),dt,mode = "wb")
-      message(paste0("file downloaded in ",dt))
+      message(paste0("file downloaded in ",destdir))
       load(dt)
       return(get(paste(gpl, type,sep='_')))
     }else{

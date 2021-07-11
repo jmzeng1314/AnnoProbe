@@ -48,7 +48,7 @@ geoChina <- function(gse='GSE2546',mirror='tencent',destdir=getwd()){
   download.file(paste0(up,down),tpf,mode = "wb")
   suppressWarnings(load(tpf))
   # getGEO('GSE2546', destdir=".", AnnotGPL = F, getGPL = F)
-  message(paste0("file downloaded in ",tpf,'\nyou can also use getGEO from GEOquery, by \ngetGEO(',
+  message(paste0("file downloaded in ",destdir,'\nyou can also use getGEO from GEOquery, by \ngetGEO(',
                shQuote(gse),
                ', destdir=".", AnnotGPL = F, getGPL = F)'
                ))
