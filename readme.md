@@ -1,3 +1,9 @@
+![](https://www.r-pkg.org/badges/version-last-release/AnnoProbe)
+![](https://cranlogs.r-pkg.org/badges/grand-total/AnnoProbe)
+![](https://cranlogs.r-pkg.org/badges/last-day/AnnoProbe)
+![](https://cranlogs.r-pkg.org/badges/last-week/AnnoProbe)
+![](https://cranlogs.r-pkg.org/badges/AnnoProbe)
+
 ### 表达芯片数据分析伴侣
 
 上周我们发布的**四个R包**基本上能进解决**表达芯片数据挖掘的88%的问题**，如下:
@@ -12,8 +18,13 @@
 ### 如何下载**AnnoProbe**
 
 ```r
+# 从github下载安装
 library(devtools)
 install_github("jmzeng1314/AnnoProbe")
+
+# 从CRAN下载安装
+install.packages("AnnoProbe")
+
 library(AnnoProbe)
 ```
 

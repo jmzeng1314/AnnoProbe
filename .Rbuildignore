@@ -4,3 +4,4 @@
 ^dev$
 ^data-raw$
 ^cran-comments\.md$
+^readme.md
