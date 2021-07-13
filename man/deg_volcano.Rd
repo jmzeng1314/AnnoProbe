@@ -24,6 +24,8 @@ a ggplot2 style figure.
 \examples{
 deg=GSE27533$DEG
 need_deg=data.frame(symbols=rownames(deg), logFC=deg$logFC, p=deg$P.Value)
-deg_volcano(need_deg,1)
 deg_volcano(need_deg,2)
+\donttest{
+deg_volcano(need_deg,1)
+}
 }

@@ -20,8 +20,8 @@ because there will be many probes mapped to same genes, we will only keep the ma
 }
 \examples{
 attach(GSE95166)
-head(probes_expr)
-head(probe2gene)
+# head(probes_expr)
+# head(probe2gene)
 genes_expr <- filterEM(probes_expr,probe2gene)
-head(genes_expr)
+# head(genes_expr)
 }

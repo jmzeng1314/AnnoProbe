@@ -23,5 +23,5 @@ a ggplot2 style figure.
 }
 \examples{
 attach(GSE27533)
-deg_heatmap(DEG,genes_expr)
+deg_heatmap(DEG,genes_expr,group_list)
 }
