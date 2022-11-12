@@ -1,8 +1,8 @@
 Package: AnnoProbe
 Type: Package
 Title: Annotate the Gene Symbols for Probes in Expression Array
-Version: 0.1.6
-Date: 2021-07-11
+Version: 0.1.7
+Date: 2022-11-12
 Authors@R: 
     c(
     person(given = "Jianming",
@@ -37,7 +37,10 @@ Imports:
     utils,
     methods,
     Biobase,
-    stats
+    stats,
+    xml2,
+    httr,
+    curl
 biocViews: DataImport, Microarray, OneChannel, SAGE, Software, TwoChannel
 Suggests: 
     limma,
