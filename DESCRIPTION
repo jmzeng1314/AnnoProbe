@@ -1,31 +1,49 @@
 Package: AnnoProbe
 Type: Package
-Title: annotate the gene symbols for probes in expression array
-Version: 0.1.0
-Date: 2019-09-23
-Author: Yujia Xiang  && Jianming Zeng
-Maintainer: The package maintainer <jmzeng1314@163.com>
-Description:  We curated 147 of expression array, from 3 species(human,mouse,rat), 
-              3 companies(affymetrix,illumina,agilent), 
-              by aligning the fasta sequences of all probes of each platform to their corresponding reference genome, 
+Title: Annotate the Gene Symbols for Probes in Expression Array
+Version: 0.1.7
+Date: 2022-11-12
+Authors@R: 
+    c(
+    person(given = "Jianming",
+           family = "Zeng",
+           role = "aut",
+           email = "jmzeng1314@163.com"),
+    person(given = "Yujia",
+           family = "Xiang",
+           role = "aut"),
+    person(given = "Yonghe",
+           family = "Xia",
+           role = c("ctb", "cre"),
+           email = "xiayh17@gmail.com")
+    )
+Maintainer: Yonghe Xia <xiayh17@gmail.com>
+Description: We curated 147 of expression array, from 3 species(human,mouse,rat), 
+              3 companies('Affymetrix','Illumina','Agilent'), 
+              by aligning the 'Fasta' sequences of all probes of each platform to their corresponding reference genome, 
               and then annotate them to genes. 
-License: Artistic-2.0
+License: Apache License (>= 2)
 Encoding: UTF-8
+URL: https://github.com/jmzeng1314/AnnoProbe
 LazyData: true
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.1
 Depends:
-    R (>= 3.4.0),
-    methods,
+    R (>= 3.4.0)
 Imports:
-    remotes,
-    GEOquery,
-    limma,
     ggplot2,
     DT,
     ggpubr,
     pheatmap,
+    utils,
+    methods,
+    Biobase,
+    stats,
+    xml2,
+    httr,
+    curl
+biocViews: DataImport, Microarray, OneChannel, SAGE, Software, TwoChannel
 Suggests: 
+    limma,
+    GEOquery,
     knitr,
-    KEGGREST,
     rmarkdown
-VignetteBuilder: knitr

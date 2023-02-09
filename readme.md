@@ -1,9 +1,15 @@
+![](https://www.r-pkg.org/badges/version-last-release/AnnoProbe)
+![](https://cranlogs.r-pkg.org/badges/grand-total/AnnoProbe)
+![](https://cranlogs.r-pkg.org/badges/last-day/AnnoProbe)
+![](https://cranlogs.r-pkg.org/badges/last-week/AnnoProbe)
+![](https://cranlogs.r-pkg.org/badges/AnnoProbe)
+
 ### 表达芯片数据分析伴侣
 
 上周我们发布的**四个R包**基本上能进解决**表达芯片数据挖掘的88%的问题**，如下:
 
-- [第三个万能芯片探针ID注释平台R包](http://mp.weixin.qq.com/s?__biz=MzAxMDkxODM1Ng==&mid=2247492052&idx=1&sn=e640e0d9468f60616bddf9494117d0b8&chksm=9b4ba16fac3c287934abe0c6515f12af51d018ea2fa9436b2b9b0a1975c5a05318f2178448cd&scene=21#wechat_redirect)
-- [第二个万能芯片探针ID注释平台R包](http://mp.weixin.qq.com/s?__biz=MzAxMDkxODM1Ng==&mid=2247492037&idx=1&sn=f6a3a38cac4c20b5428f354803444ec4&chksm=9b4ba17eac3c286897898ac8c3cd42418600cf9b206ca3f9c97b04bcf8c49553fcd52ba891ea&scene=21#wechat_redirect)
+- [第三个万能芯片探针ID注释平台R包](https://mp.weixin.qq.com/s/JsKux07iRKdiMLnbCWhuLg)
+- [第二个万能芯片探针ID注释平台R包](https://mp.weixin.qq.com/s/B_e8TbOim5jBKYLxvdZM3w)
 - [第一个万能芯片探针ID注释平台R包](https://mp.weixin.qq.com/s/CzV9zv0AbhhfTalVomTGCw)
 - [GEO数据库中国区镜像横空出世](https://mp.weixin.qq.com/s/0rXp-n4NvCmwqh4eyGJvQw)
 
@@ -12,8 +18,13 @@
 ### 如何下载**AnnoProbe**
 
 ```r
+# 从github下载安装
 library(devtools)
 install_github("jmzeng1314/AnnoProbe")
+
+# 从CRAN下载安装
+install.packages("AnnoProbe")
+
 library(AnnoProbe)
 ```
 
@@ -45,7 +56,7 @@ head(probe2gene)
 
 轻轻松松的几行代码，就拿到了探针的注释信息哦，就是我帮你跑完了芯片探针的重新注释，而且把注释好的结果返回给你。
 
-![image-20191212105130990](readme.assets/image-20191212105130990.png)
+![image-20191212105130990](https://cdn.jsdelivr.net/gh/xiayh17/Figs@main/uPic/image-20191212105130990.png)
 
 是不是很激动。
 
